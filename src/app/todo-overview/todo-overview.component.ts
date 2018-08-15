@@ -10,7 +10,7 @@ import { REMOVE_ALL_TODOS, REMOVE_TODO } from '../actions';
 })
 export class TodoOverviewComponent implements OnInit {
   @select() todos;
-  @select() lastupdate;
+  @select() lastUpdate;
 
   constructor(private ngRedux:NgRedux<IAppState>) { }
 
