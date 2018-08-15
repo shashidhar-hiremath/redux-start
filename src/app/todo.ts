@@ -1,7 +1,7 @@
 export interface ITodo {
-    id:number;
+    id: number;
     description: string;
-    responsible:string;
+    responsible: string;
     priority: string;
-    completed: boolean;
+    isCompleted: boolean;
 }
